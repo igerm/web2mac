@@ -1,0 +1,12 @@
+{
+  "name": "Paints Catalog",
+  "bundle_id": "dev.example.paints-catalog",
+  "mode": "command",
+  "command": ["python3", "tools/editor.py", "--no-open"],
+  "cwd": "/path/to/your/checkout",
+  "port": 8765,
+  "env": { "EDITOR_PORT": "{port}" },
+  "window": { "width": 1280, "height": 820, "min_width": 900, "min_height": 560 },
+  "icon": { "emoji": "🎨", "top": "#2E323C", "bottom": "#15181E" },
+  "lang": "es"
+}

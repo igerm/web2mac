@@ -1,0 +1,10 @@
+{
+  "name": "Sales Dashboard",
+  "mode": "command",
+  "command": ["streamlit", "run", "app.py", "--server.port", "{port}",
+              "--server.headless", "true", "--browser.gatherUsageStats", "false"],
+  "cwd": ".",
+  "port": 0,
+  "startup_timeout": 40,
+  "icon": { "emoji": "📈", "top": "#FF4B4B", "bottom": "#8A1F1F" }
+}
