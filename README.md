@@ -13,7 +13,7 @@ No Electron, no npm. The generated app is a ~100 KB Swift binary hosting a `WKWe
 ## Install as a Claude Code skill
 
 ```sh
-git clone https://github.com/<you>/web2mac.git
+git clone https://github.com/igerm/web2mac.git
 cp -R web2mac/skills/web2mac ~/.claude/skills/
 ```
 
